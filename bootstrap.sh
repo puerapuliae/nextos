@@ -8,6 +8,6 @@
 curl -sSL https://get.docker.com/ | sh
 curl -sSL https://get.docker.com/gpg | sudo apt-key add -
 
-apt-get install make build-essential gcc g++ gzip bzip2 perl cpio python unzip rsync ncurses-dev bc
+apt-get install -y make build-essential gcc g++ gzip bzip2 perl cpio python unzip rsync ncurses-dev bc
 
 echo "cd /vagrant" >> /home/vagrant/.bashrc
